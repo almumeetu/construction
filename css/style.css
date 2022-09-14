@@ -249,11 +249,11 @@ label {
 	font-size: 15px;
 	font-weight: 500;
 	line-height: 1;
-	padding: 15px 37px;
+	padding: 10px 17px;
 	text-align: center;
 	text-transform: uppercase;
 	transition: all 0.3s ease 0s;
-	color: #fff;
+	color: #000;
 	
 }
 
@@ -1812,4 +1812,73 @@ header-top-area {
 }
 /* careers css end here */
 
+/* contract css start here */
+.contact-form {
+	padding: 60px 40px;
+}
+.contact-form > h3 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 50px;
+}
+.contact-form input {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border-color: currentColor currentColor #cccccf;
+	border-image: none;
+	border-style: none none solid;
+	border-width: 0 0 1px;
+	font-size: 13px;
+	height: 60px;
+	margin-bottom: 40px;
+	width: 100%;
+}
+.contact-form textarea {
+	-moz-border-bottom-colors: none;
+	-moz-border-left-colors: none;
+	-moz-border-right-colors: none;
+	-moz-border-top-colors: none;
+	background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	border-color: currentColor currentColor #cccccf;
+	border-image: none;
+	border-style: none none solid;
+	border-width: 0 0 1px;
+	height: 80px;
+	margin-bottom: 40px;
+	width: 100%;
+
+}
+.contact-info {
+	padding: 51px 45px;
+	border: 1px solid #f2f2f2;
+}
+.contact-info h2 {
+	font-size: 40px;
+	font-weight: 600;
+	margin-bottom: 50px;
+	color: #414149;
+}
+.contact-info > span {
+	color: #646464;
+	font-size: 17px;
+	display: block;
+	margin-bottom: 10px;
+}
+.contact-meta-info h4 {
+	font-size: 18px;
+	font-weight: 500;
+	margin-bottom: 15px;
+}
+.contact-meta-info > p {
+	margin-bottom: 5px;
+}
+
+
+
+
+
+/* contract css start here */
 
