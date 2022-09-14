@@ -1031,6 +1031,10 @@ header-top-area {
 
 }
 
+.blog-latest_2 {
+	overflow: hidden;
+  }
+
 .tag-blog>a {
 	background: #fbba42 none repeat scroll 0 0;
 	border-radius: 30px;
@@ -1729,3 +1733,83 @@ header-top-area {
 	background: orange;
   }
   
+
+/* careers css start here */
+.why-chose {
+	padding: 0 20px;
+}
+.why-chose i {
+	background: #fbba42 none repeat scroll 0 0;
+	border-radius: 50%;
+	color: #414149;
+	font-size: 30px;
+	height: 110px;
+	line-height: 108px;
+	margin-bottom: 30px;
+	width: 110px;
+}
+
+.why-chose h2 {
+	color: #414149;
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+.why-chose p {
+	padding: 0px;
+}
+.job-list {
+	padding: 30px;
+	padding-bottom: 45px;
+}
+.job-list h3 {
+	border-bottom: 1px solid #fbba42;
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 40px;
+	padding-bottom: 25px;
+}
+
+.job-list ul li {
+	margin-bottom: 30px;
+}
+.job-list ul li a {
+	color: #777777;
+	display: block;
+	font-size: 17px;
+	font-weight: 500;
+}
+.job-desc > h2 {
+	font-size: 28px;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+
+.job-desc ul li {
+	color: #777777;
+	font-size: 17px;
+	line-height: 30px;
+	margin-bottom: 30px;
+	padding-left: 30px;
+	position: relative;
+}
+.job-desc ul li::before {
+	border: 2px solid #5a596a;
+	border-radius: 50%;
+	content: "";
+	height: 10px;
+	left: 0;
+	position: absolute;
+	top: 12px;
+	width: 10px;
+
+}
+.csv-send p {
+	margin-top: 60px;
+}
+.csv-send p span {
+	font-weight: 600;
+}
+/* careers css end here */
+
+
