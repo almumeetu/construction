@@ -2046,3 +2046,19 @@ select {
 	margin-right: 5px;
 	text-transform: uppercase;
 }
+
+
+/* Moblie Menu */
+.home3 .mean-container .mean-nav {
+	position: inherit;
+}
+.home3 .mean-nav > ul {
+	display: block !important;
+}
+.home3 .meanmenu-reveal {
+	display: none !important;
+}
+
+.home3 .mean-bar {
+	margin-bottom: 20px;
+}
