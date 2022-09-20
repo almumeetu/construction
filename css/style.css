@@ -690,7 +690,12 @@ header-top-area {
 .social-icon-right a:hover i {
 	background: #fbba42;
 }
-
+/* .submenu ul:hover li a {
+	color: #ffb62e;
+	padding-left: 10px;
+	border-top: 1px solid #ffb62e;
+	margin-top: 15px;
+} */
 /* EXTRA INFO CSS END HERE */
 
 /* Slider CSS START HERE */
@@ -1560,6 +1565,8 @@ header-top-area {
 	color: #414149;
 	font-size: 72px;
 	font-weight: 700;
+	line-height: 60px;
+	margin-bottom: 15px;
 }
 .breadcrumb-item > a {
 	color: #414149;
@@ -2319,6 +2326,7 @@ select {
 	padding: 15px 15px;
 	width: 100%;
 }
+
 /* news-blog-details css end here */
 
 	/* / cart start / */
