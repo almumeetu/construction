@@ -133,7 +133,9 @@
     .contact-info {
         padding: 33px 45px;
     }
-
+    .news-blog-item {
+		padding-right: 0px;
+	}
 
 
 
@@ -146,6 +148,9 @@
 @media (min-width: 768px) and (max-width: 991px) {
     .header-button {
         display: none;
+    }
+    .header-right_3 .fas.fa-bars {
+        font-size: 35px;
     }
     .main-menu {
         display: none;
@@ -169,9 +174,9 @@
     }
     .about__content {
         margin-left: 0;
-        padding-top: 25px;
+        padding-top: 30px;
         padding-bottom: 28px;
-        padding-left: 40px;
+        padding-left: 0px;
     }
     .my-btn {  
         font-size: 15px;     
@@ -231,6 +236,11 @@
         margin-left: 0px;
         margin-right: 0px;
     }
+    .news-blog-item {
+		padding-right: 0px;
+	}
+
+
 
 
     /* index.html css start here */
@@ -244,6 +254,9 @@
     .header-button {
         display: none;
     }
+    .header-right_3 .fas.fa-bars {
+        font-size: 35px;
+    }
     .main-menu {
         display: none;
     }
@@ -256,6 +269,10 @@
         padding-top: 25px;
         padding-bottom: 28px;
         padding-left: 40px;
+    }
+    .slider__content-3 > h1 {
+        font-size: 75px;
+        line-height: 80px;
     }
     .mobile-menu.mean-container {
         margin-top: 36px;
@@ -349,6 +366,10 @@
         line-height: 60px;
         margin-bottom: 25px;
     }
+    .news-blog-item {
+		padding-right: 0px;
+	}
+
   
 
 
@@ -362,6 +383,9 @@
         .header-button {
             display: none;
         }
+        .header-right_3 .fas.fa-bars {
+            font-size: 30px;
+        }
         .wrapper-box {
             padding-right: 15px;
             padding-left: 15px;
@@ -374,9 +398,9 @@
         }
         .about__content {
             margin-left: 0;
-            padding-top: 25px;
-            padding-bottom: 98px;
-            padding-left: 40px;
+            padding-top: 40px;
+            padding-bottom: 65px;
+            padding-left: 0px;
         }
         .slider {
             margin-left: 15px;
@@ -469,8 +493,15 @@
     .team-contant {
         margin-bottom: 20px;
     }
+    .news-blog-content h3 {
+        font-size: 28px;
+        line-height: 28px;
+    }
+    .news-blog-item {
+		padding-right: 0px;
+	}
 
-    /* index.html css start here */
+   
   
     
     }
@@ -481,6 +512,9 @@
             padding-left: 0px;
             padding-right: 0px;
             display: none;
+        }
+        .header-right_3 .fas.fa-bars {
+            font-size: 25px;
         }
         .about__content {
             margin-left: 0;
@@ -613,7 +647,22 @@
     .product-content{
         margin-top: 40px;
     }
+ 
 
+    .news-blog-content h3 {
+        font-size: 25px;
+        line-height: 25px;
+    }
+    .product-desc h2 {
+        font-size: 30px;
+        margin-top: 30px;
+    }
+    /* img {
+        width: 100%;
+    } */
+    .news-blog-item {
+		padding-right: 0px;
+	}
 
 
    
