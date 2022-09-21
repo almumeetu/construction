@@ -554,12 +554,14 @@ header-top-area {
 	display: block;
 	margin-bottom: 10px;
 	margin-left: 0;
+	border-bottom: 1px solid #fbba42;
 }
 
 .main-menu ul li .submenu li a {
 	color: #ddd;
 	display: block;
 	padding: 0;
+	padding-bottom: 15px;
 }
 
 .main-menu ul li ul li:hover a {
