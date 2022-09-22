@@ -17,7 +17,9 @@
      .about__title-2 {
         margin-bottom: 20px;
     }
-    
+    .tab-pane > img {
+        margin-left: 15px;
+    }
 }
 
 
@@ -143,6 +145,9 @@
     .news-blog-item {
 		padding-right: 0px;
 	}
+    .blog-content-img {
+        margin-bottom: 25px;
+    }
 
 
 
@@ -254,7 +259,9 @@
     .news-blog-item {
 		padding-right: 0px;
 	}
-
+    .blog-content-img {
+        margin-bottom: 25px;
+    }
 
 
 
@@ -314,6 +321,9 @@
     padding-left: 15px;
     padding-right: 15px;
    }
+   .blog-content-img {
+	margin-bottom: 25px;
+}
    .update-cart {
     margin-top: 20px;
    }
@@ -401,7 +411,12 @@
     .news-blog-item {
 		padding-right: 0px;
 	}
-
+    .blog-post-tag {
+        margin-bottom: 30px;
+    }
+    .blog-share-icon {
+        text-align: start;
+    }
   
 
 
@@ -485,6 +500,9 @@
             padding-right: 0px;
             padding-left: 0px;
         }
+        .blog-content-img {
+            margin-bottom: 25px;
+        }
         .logo > a > img {
             width: 200px;
         }
@@ -532,6 +550,15 @@
     .news-blog-item {
 		padding-right: 0px;
 	}
+    .blog-post-tag {
+        margin-bottom: 30px;
+    }
+    .blog-share-icon {
+        text-align: start;
+    }
+    .sidebar-widget{
+        margin-top: 40px;
+    }
 
    
   
@@ -556,6 +583,9 @@
         }
         .team-4 {
             padding: 0px;
+        }
+        .blog-content-img {
+            margin-bottom: 25px;
         }
         .wrapper-box {
             padding-right: 15px;
@@ -622,6 +652,12 @@
         .tab-pane > img {
             margin-left: 0px;
         }
+        .careers-title > h2 {
+            font-size: 35px;
+            line-height: 50px;
+            color: #414149;
+            padding-bottom: 70px;
+        }
         /* .product-tab {
             float: left;
             width: 70px;
@@ -642,6 +678,9 @@
             padding-top: 25px;
             padding-bottom: 30px;
             padding-left: 5px;
+        }
+        .comments-reply{
+            padding-left: 0px;
         }
         .col-6 {
                 padding-right: 0px;
@@ -714,8 +753,16 @@
     .news-blog-item {
 		padding-right: 0px;
 	}
-
-
+    .sidebar-widget {
+        margin-top: 50px;
+    }
+    .blog-post-tag {
+        margin-bottom: 30px;
+    }
+    .blog-share-icon {
+        text-align: start;
+    }
+  
    
   
 }
