@@ -256,6 +256,26 @@ label {
 	transition: all 0.3s ease 0s;
 	color: #000;
 }
+.slider-btn-1 {
+	background: #2f3440;
+	border-color: #000 ;
+	cursor: pointer;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 1;
+	padding: 15px 23px;
+	text-align: center;
+	text-transform: uppercase;
+	transition: all 0.3s ease 0s;
+	color: #fff;
+}
+
+.slider-btn-1:hover {
+	background: #fff;
+	border-color: #f8ca42;
+	color: #000;
+}
 
 .shop-btn i {
 	margin-right: 10px;
@@ -1204,11 +1224,14 @@ header-top-area {
 	padding-left: 20px;
 }
 
+.blog-latest_2-img img {
+	transition: all 1s;
+}
 .blog-latest_2-img {
-	transition: all 0.3s;
+	overflow: hidden;
 }
 
-.blog-latest_2-img:hover {
+.blog-latest_2-img img:hover {
 	transform: scale(1.1);
 }
 /*BLOG-2 CSS END HERE*/
@@ -1390,7 +1413,14 @@ header-top-area {
 	margin-bottom: 18px;
 	color: #777;
 }
-
+.footer-contact ul li:hover a {
+	color: #000;
+}
+.footer-contact > ul li a {
+	font-size: 15px;
+	color: #777;
+	transition: 0.3s;
+}
 .footer-brand-area {
 	position: relative;
 }
@@ -1422,7 +1452,9 @@ header-top-area {
 .footer-content p {
 	line-height: 36px;
 }
-
+.About-link ul li:hover a {
+	color: #000;
+}
 .about-first a {
 	margin-right: 40px;
 	color: #979799;
@@ -1642,6 +1674,7 @@ header-top-area {
 .services-area {
 	padding: 35px 30px 35px 30px;
 	transition: 1s;
+	border: 1px solid transparent;
 }
 
 .services-icon > a img {
@@ -1695,13 +1728,15 @@ header-top-area {
 /* shop css start here */
  
 .product-img {
-	border: 1px solid #ebebeb;
 	position: relative;
-	transition: all 0.5s;
+}
+.product-img:first-child {
+	border: 1px solid #e6e6e6;
 }
 
+
 .product-wrapper:hover .product-img {
-	border: 2px solid #f8ca42;
+	border: 1px solid #f8ca42;
 }
 
 .product-img img {
@@ -1722,7 +1757,6 @@ header-top-area {
 	left: 10px;
 	position: absolute;
 	top: 10px;
-	transition: all 0.3s ease 0s;
 	opacity: 0;
 	visibility: hidden;
 }
@@ -1810,13 +1844,13 @@ header-top-area {
 	background: #fbba42;
 }
 
-.news-img img {
+/* .news-img img {
 	transition: all 0.3s;
-}
+} */
 
-.news-item:hover img {
+/* .news-item:hover img {
 	transform: scale(1.1);
-}
+} */
 
 .news-pagination_nav ul {
 	display: flex;
@@ -2298,6 +2332,9 @@ select {
 
 .news-blog-content {
 	border-bottom: 1px solid #e6e6e6;
+}
+.news-blog-content > h3 a:hover {
+	color: #fbba42;
 }
 
 .blog-content-img > img {
