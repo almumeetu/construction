@@ -382,6 +382,33 @@ label {
 	background: #444;
 }
 
+/* sticky css start here */
+
+.sticky {
+	position: fixed;
+	top: 0;
+	background: var(--clr-common-white);
+	z-index: 800;
+	right: 0;
+	left: 0;
+	width: 100%;
+	transition: 0.7s;
+	box-shadow: 0 0 60px 0 rgba(53, 57, 69, 0.15);
+	animation: 300ms ease-in-out 0s normal none 1 running fadeInDown;
+	border: none;
+	background: #979799;
+	opacity: 0.9;
+	text-align: center;
+}
+.sticky nav > ul li a {
+	color: #000;
+	font-size: 15px;
+}
+.sticky nav > ul li:hover a {
+	color: #fbba42;
+}
+/* sticky css end here */
+
 /*---HEADER CSS START HERE---*/
 .header-top-area {
 	margin-bottom: 10px;
@@ -541,9 +568,8 @@ label {
 .header-button a:hover {
 	background: #fbba42;
 	color: #fff;
-	border: 2px solid #fff;
+	border: 2px solid #fbba42;
 }
-
 .info-bar-3 > a > i {
 	color: #787878;
 }
@@ -1724,8 +1750,8 @@ label {
 	border-radius: 50px;
 	font-size: 28px;
 	line-height: 30px;
+	transition: 0.9s;
 }
-
 .services-area:hover {
 	border: 1px solid #f2f2f2;
 }
@@ -1769,8 +1795,11 @@ label {
  
 .product-img {
 	position: relative;
-	transition: 0.7s;
 }
+.product-content > h4:hover a {
+	color: #fbba42;
+}
+
 .product-img:first-child {
 	border: 1px solid #e6e6e6;
 }
@@ -1799,13 +1828,11 @@ label {
 	left: 10px;
 	position: absolute;
 	top: 10px;
-	opacity: 0;
-	visibility: hidden;
+	transform: scale(0);
+	transition: .6s;
 }
-
 .product-wrapper:hover .product-action {
-	opacity: 1;
-	visibility: visible;
+	transform: scale(1);
 }
 
 .product-action h4 {
@@ -2747,4 +2774,13 @@ select {
 .brand-active .slick-slide img {
 	display: flex;
 	margin: auto;
+}
+.news-img {
+	overflow: hidden;
+}
+.news-img img {
+	transition: all 1s;
+}
+.news-img img:hover {
+	transform: scale(1.1);
 }

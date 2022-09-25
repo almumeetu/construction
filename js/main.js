@@ -29,9 +29,9 @@ $('.main-menu nav ul').onePageNav({
 $(window).on('scroll', function () {
 	var scroll = $(window).scrollTop();
 	if (scroll < 245) {
-		$(".header-sticky").removeClass("sticky");
+		$("#header-sticky").removeClass("sticky");
 	} else {
-		$(".header-sticky").addClass("sticky");
+		$("#header-sticky").addClass("sticky");
 	}
 });
 
@@ -107,6 +107,18 @@ $('.owl-carousel').owlCarousel({
         }
     }
 })
+
+	// // Sticky Header Js
+	// windowOn.on("scroll", function () {
+	// 	var scroll = $(window).scrollTop();
+	// 	if (scroll < 100) {
+	// 		$("#header-sticky").removeClass("sticky");
+	// 	} else {
+	// 		$("#header-sticky").addClass("sticky");
+	// 	}
+	// }
+
+
 
 
 $('.blog-active').slick({
