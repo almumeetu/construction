@@ -1913,14 +1913,6 @@ label {
 	background: #fbba42;
 }
 
-/* .news-img img {
-	transition: all 0.3s;
-} */
-
-/* .news-item:hover img {
-	transform: scale(1.1);
-} */
-
 .news-pagination_nav ul {
 	display: flex;
 	gap: 10px;
